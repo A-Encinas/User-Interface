@@ -22,6 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	border: 1px solid grey;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -64,3 +65,31 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+h1 {
+	color: lightgrey;
+	font-family: 'Titillium Web', sans-serif;
+	display: inline;
+	letter-spacing: 5px;
+	word-spacing: 30px;
+}
+h2 {
+	font-family: 'Bangers', cursive;
+	font-size: 75px;
+	width: 270px;
+	text-align: center;
+}
+.logo-section span {
+	font-size: 17px;
+	border: 2px solid black;
+	font-family: 'Titillium Web', sans-serif;
+	display: block;
+	background: red;
+	padding: 3px 50px;
+	width: 200px;
+	margin: 5px 35px
+}
+.logo-section {
+	display: inline-block;
+	margin: 50px;
+}
